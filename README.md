@@ -70,3 +70,21 @@ curl -X POST http://localhost:5288/api/accounts ^
 -H "Content-Type: application/json" ^
 -d "{\"ownerName\":\"Alice\",\"initialBalance\":100.50}"
 ```
+Deposit 10 money on 'Danil' account
+```
+curl -X POST http://localhost:5288/api/accounts/20250902460354/deposit ^
+-H "Content-Type: application/json" ^
+-d "{\"amount\":10}"
+```
+Withdraw 10 money from 'Danil' account
+```
+curl -X POST http://localhost:5288/api/accounts/20250902460354/withdraw ^
+-H "Content-Type: application/json" ^
+-d "{\"amount\":10}"
+```
+Transfer 10 money from 'Danil' to 'Dmytro' account
+```
+curl -X POST http://localhost:5288/api/accounts/transfer ^
+-H "Content-Type: application/json" ^
+-d "{\"fromAccountNumber\":\"20250902460354\",\"toAccountNumber\":\"20250902205163\",\"amount\":10}"
+```
