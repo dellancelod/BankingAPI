@@ -1,0 +1,30 @@
+# Visual Studio
+.vs/
+*.user
+*.suo
+*.userosscache
+*.sln.docstates
+
+# Build results
+Banking.Api/bin/
+Banking.Api/obj/
+Banking.Api/Debug/
+Banking.Api/Release/
+
+Banking.Api.Tests/bin/
+Banking.Api.Tests/obj/
+Banking.Api.Tests/Debug/
+Banking.Api.Tests/Release/
+
+# Rider / JetBrains
+.idea/
+
+# NuGet packages
+*.nupkg
+packages/
+
+# Logs
+*.log
+
+# DotNet Core
+*.dotnet/
