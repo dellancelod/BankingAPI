@@ -6,7 +6,7 @@ This is small banking WEB API created as a test task for my job application.
 
 • C# – main programming language
 
-• .NET 7 / .NET 8 – framework for building the REST API
+• .NET 8 – framework for building the REST API
 
 ### Web & API
 
